@@ -1,0 +1,101 @@
+/*fuentes*/
+@font-face{
+    font-family:King_Arthur_Legend;
+    src:url('/fuentes/King_Arthur_Legend.ttf');
+}
+/***************************************************/
+/*header and footer*/
+header, footer{
+    display: grid;
+    background-color: black;
+    font-family:King_Arthur_Legend;
+}
+.navegacion{
+    margin: auto;
+    gap: 20px;
+    margin-top: -50px;
+}
+header img{
+    height: 90px;
+}
+.footer{
+    gap: 20px;
+}
+footer img{
+    height: 140px;
+}
+/***************************************************/
+/*Backgrounds*/
+body{
+    background: black;
+    background-image: url(/assets/images/interface/crypts.entrance.png);
+    background-size: cover;
+    background-attachment: fixed;
+    color: blanchedalmond;
+    text-align: center;
+    margin:15px;
+    margin: auto;
+}
+footer, li{
+    text-align: left;
+}
+/*Sala de batalla*/
+.battle{
+    background-color: transparent ;
+    background-image: url(/assets/images/interface/crypts.room_altar.png);
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 1520px;
+    border: 1px solid crimson;
+    margin: auto;
+    align-items: center;
+}
+/*Background tabla de contenido*/
+#BattleStateAll{
+    display: grid;
+    grid-template-columns: auto auto;
+    pad: 0;
+    justify-content: center;
+    align-content: center;
+}
+#battleStateBannerLeft{
+    background-image: url(/assets/images/interface/panel/panelLeft.png);
+    background-repeat: no-repeat;
+    height: 270px;
+    width: 760px;
+    border: 1px solid crimson; 
+}
+#battleStateBannerRight{
+    background-image: url(/assets/images/interface/panel/panelRight.png);
+    background-repeat: no-repeat;
+    height: 270px;
+    width: 760px;
+    border: 1px solid crimson;
+}
+/***************************************************/
+/*enemy´s-table*/
+.tabla{
+    margin-inline: auto;
+    text-align: center;
+    border: 1px solid crimson;
+    width: 800px;
+    background-color: black;
+    margin-top: 30px;
+}
+.tabla tr td{
+    border: 1px solid crimson;
+}
+.portrait-table{
+    width: 120px;
+}
+/***************************************************/
+/*art-section*/
+.art-container div img{
+    border: 2px solid grey;
+}
+/***************************************************/
+.news-content a{
+    width: 40%;
+}
